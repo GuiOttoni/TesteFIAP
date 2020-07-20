@@ -1,0 +1,15 @@
+<mat-card class="card">
+    <mat-card-header>
+      <mat-card-title>{{parceria.titulo}}</mat-card-title>
+      <mat-card-subtitle>{{parceria.empresa}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        Até {{parceria.dataTermino | date: 'dd/MM/yyyy'}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions class="actions">
+      <button mat-button color="accent" (click)="openDialog(parceria)">VISUALIZAR</button>
+      <button mat-button color="accent" (click)="registraLike(parceria.codigo)" matTooltip="{{parceria.qtdLikes}} like(s) ao total">LIKE</button>
+    </mat-card-actions>
+  </mat-card>

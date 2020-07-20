@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-form-field class="full-width">
+    <mat-label>Pesquisa de parceria</mat-label>
+      <input #search matInput placeholder="Ex. Empresa x" >
+    
+  </mat-form-field>
+  <button mat-raised-button color="accent" (click)="pesquisar(search.value)">Pesquisar</button>
+</mat-card>
+
+<p *ngIf="parcerias.length <= 0">Nenhuma parceria cadastrada!</p>
+
+<mat-grid-list cols="4" rowHeight="1:1" gutterSize="10">
+  <mat-grid-tile *ngFor="let p of parcerias"> <app-parceria [parceria]="p"></app-parceria></mat-grid-tile>
+</mat-grid-list>
+
