@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Parceria", "FIAP.Domain\FIAP.Parceria.csproj", "{A1B50C2B-05FB-4EC8-839F-F7558D04C4B5}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FIAP.Database", "FIAP.Database\FIAP.Database.sqlproj", "{66A46E35-EB9C-477F-B092-0969E983A20A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Portal", "FIAP.Portal\FIAP.Portal.csproj", "{2764769F-ACC7-44D0-B1E0-374FCCD96809}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FA72D36D-DAA8-4B4E-A95E-C49AB3D37938}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.ParceriaAPI", "FIAP.ParceriaAPI\FIAP.ParceriaAPI.csproj", "{80F243A2-2B08-4EAB-9C92-2599D467A1CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Core", "FIAP.Core\FIAP.Core.csproj", "{45042EC1-EB53-4C29-A9E5-538FF2FD3509}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FIAP.WebPage", "FIAP.WebPage\", "{4DE70778-421A-416F-AB8F-81D400E9B4F6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53051"
+		Debug.AspNetCompiler.PhysicalPath = "FIAP.WebPage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53051\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53051"
+		Release.AspNetCompiler.PhysicalPath = "FIAP.WebPage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53051\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53051"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1B50C2B-05FB-4EC8-839F-F7558D04C4B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B50C2B-05FB-4EC8-839F-F7558D04C4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B50C2B-05FB-4EC8-839F-F7558D04C4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B50C2B-05FB-4EC8-839F-F7558D04C4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A46E35-EB9C-477F-B092-0969E983A20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A46E35-EB9C-477F-B092-0969E983A20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A46E35-EB9C-477F-B092-0969E983A20A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{66A46E35-EB9C-477F-B092-0969E983A20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A46E35-EB9C-477F-B092-0969E983A20A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A46E35-EB9C-477F-B092-0969E983A20A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2764769F-ACC7-44D0-B1E0-374FCCD96809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2764769F-ACC7-44D0-B1E0-374FCCD96809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2764769F-ACC7-44D0-B1E0-374FCCD96809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2764769F-ACC7-44D0-B1E0-374FCCD96809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA72D36D-DAA8-4B4E-A95E-C49AB3D37938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA72D36D-DAA8-4B4E-A95E-C49AB3D37938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA72D36D-DAA8-4B4E-A95E-C49AB3D37938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA72D36D-DAA8-4B4E-A95E-C49AB3D37938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F243A2-2B08-4EAB-9C92-2599D467A1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F243A2-2B08-4EAB-9C92-2599D467A1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F243A2-2B08-4EAB-9C92-2599D467A1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F243A2-2B08-4EAB-9C92-2599D467A1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45042EC1-EB53-4C29-A9E5-538FF2FD3509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45042EC1-EB53-4C29-A9E5-538FF2FD3509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45042EC1-EB53-4C29-A9E5-538FF2FD3509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45042EC1-EB53-4C29-A9E5-538FF2FD3509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE70778-421A-416F-AB8F-81D400E9B4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE70778-421A-416F-AB8F-81D400E9B4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE70778-421A-416F-AB8F-81D400E9B4F6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE70778-421A-416F-AB8F-81D400E9B4F6}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {808059B5-3D99-45FD-9BFF-2F2B34CF25E8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,50 @@
+﻿@model IEnumerable<FIAP.Parceria.Models.Parceria>
+@{
+    ViewData["Title"] = "index";
+}
+
+<h1>Controle de parcerias</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Titulo</th>
+                <th>Empresa</th>
+                <th>Data Inicio</th>
+                <th>Data de término</th>
+                <th>Qtd. Likes</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Codigo</td>
+
+                    <td>@item.Titulo</td>
+
+                    <td>@item.Empresa</td>
+
+                    <td>@item.DataInicio</td>
+
+                    <td>@item.DataTermino</td>
+
+                    <td>@item.QtdLikes</td>
+
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new {codigo = item.Codigo }) |
+                        @Html.ActionLink("Delete", "Delete", new { codigo = item.Codigo })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>  
