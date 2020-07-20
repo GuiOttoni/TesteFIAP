@@ -2,6 +2,8 @@
 
 Prova de desenvolvimento C#
 
+Video de apresentação do projeto: https://youtu.be/8XefUGJcDoU
+
 # Instalação
 
 Como startar o projeto
