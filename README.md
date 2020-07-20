@@ -33,7 +33,7 @@ Caso Seja utilizado o DB com o DOCKER, para utilizar o banco na api, deve ser tr
 
 ### Tarefas não desenvolvidas
 
-* Pesquisa não foi feita
+* Pesquisa
 * Não pode ter dois cadastros com o mesmo título
 * A Data de início tem que ser menor que a data de término
 * A diferença entre as datas de início e término, tem que ser 5 ou mais dias
