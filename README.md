@@ -26,3 +26,5 @@ $ .\configDbDocker.sh (OPCIONAL)
 $ .\start.sh 
 $ .\configAngular.sh
 ```
+
+Caso Seja utilizado o DB com o DOCKER, para utilizar o banco na api, deve ser trocado a informaçõa no appsettings do projeto FIAP.ParceriaAPI e para conseguir o ip do driver do docker, basta executar ipconfig no powershell. (IP da placa virtual do docker geralmente é a iniciada com 172.18.*.*)
